@@ -1,14 +1,19 @@
 
 .product {
-    border: 2px solid black;
-    padding: 1em;
+    max-width: 200px;
 }
 
 .product-img-container {
     border: 2px solid goldenrod;
     width: 200px;
     height: 200px;
+    overflow: hidden;
     margin-bottom: 1em;
+}
+
+.product-img {
+    width: 200px;
+    height: 200px;
 }
 
 .product-price {

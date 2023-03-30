@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
-import Products from './components/Products/Products'
+import Shop from './components/Shop/Shop'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
       <main>
 
         <section className='product-selection-area container'>
-          <Products></Products>
+          <Shop></Shop>
         </section>
         
       </main>

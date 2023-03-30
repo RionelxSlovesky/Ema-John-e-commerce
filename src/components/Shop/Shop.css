@@ -1,0 +1,9 @@
+
+.shop {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.order-summary {
+    padding-top: 5em;
+}
