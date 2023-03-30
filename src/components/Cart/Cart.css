@@ -1,0 +1,11 @@
+
+.order-summary {
+    background-color: grey;
+    color: white;
+    padding: 1.5em 1em;
+    height: fit-content;
+}
+
+.summary-header, .summary-desc {
+    margin-bottom: 1em;
+}
