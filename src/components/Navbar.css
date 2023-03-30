@@ -1,0 +1,20 @@
+
+
+.primary-nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 5em;
+}
+
+.primary-nav-list {
+    display: flex;
+    gap: 2em;
+    list-style-type: none;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+}
