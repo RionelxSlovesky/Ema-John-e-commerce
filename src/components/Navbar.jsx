@@ -4,7 +4,7 @@ import Logo from '../assets/Logo.svg'
 
 const Navbar = () => {
     return (
-        <>
+        <div className='primary-nav-container'>
           <nav className='primary-nav'>
             <a href=''><img src={Logo} alt="" /></a>
             <ul className='primary-nav-list'>
@@ -14,7 +14,7 @@ const Navbar = () => {
                 <li className="primary-nav-items"><a href='/login' className='nav-links'>Login</a></li>
             </ul>
           </nav>  
-        </>
+        </div>
     );
 };
 

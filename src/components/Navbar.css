@@ -1,11 +1,17 @@
 
 
-.primary-nav {
+.primary-nav-container {
     background-color: black;
+}
+
+.primary-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1em 5em;
+
+    max-width: 1200px;
+    margin-inline: auto;
 }
 
 .primary-nav-list {
