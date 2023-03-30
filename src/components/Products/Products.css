@@ -5,7 +5,7 @@
     gap: 2em;
     row-gap: 4em;
     flex-wrap: wrap;
-    padding: 5em;
+    padding-right: 5em;
 }
 
 @media (max-width: 1200px) {

@@ -1,19 +1,24 @@
 
 .product {
     max-width: 200px;
+    position: relative;
 }
 
 .product-img-container {
-    border: 2px solid goldenrod;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     overflow: hidden;
     margin-bottom: 1em;
+    margin-inline: auto;
+}
+
+.product-name {
+    margin-bottom: 0.3em;
 }
 
 .product-img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 
 .product-price {
@@ -21,7 +26,7 @@
 }
 
 .product-rating {
-    margin-bottom: 0.5em;
+    margin-bottom: 4em;
 }
 
 .add-to-cart {
@@ -30,6 +35,8 @@
     height: 3em;
     border-radius: 0.5em;
     background-color: orange;
+    position: absolute;
+    bottom: 0;
 }
 
 .add-to-cart:hover {

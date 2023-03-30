@@ -7,7 +7,7 @@ const Shop = () => {
         <div className='shop'>
             <Products></Products>
             <div className='order-summary'>
-                <h3>Order Summary:</h3>
+                <h2>Order Summary:</h2>
             </div>
         </div>
     );
