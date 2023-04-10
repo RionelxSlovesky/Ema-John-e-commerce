@@ -1,0 +1,30 @@
+.review-item {
+    padding: 2em 3em;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-right: 4em;
+
+    display: flex;
+    align-items: center;
+}
+
+.review-img {
+    width: 4em;
+    margin-right: 2em;
+}
+
+.review-details {
+    flex-grow: 1;
+}
+
+.review-icon {
+    width: 1.7em;
+    height: 1.7em;
+}
+
+.review-delete-btn {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    background-color: rgb(210, 137, 137);
+}
