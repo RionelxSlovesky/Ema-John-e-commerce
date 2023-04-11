@@ -3,6 +3,7 @@ import { addToDb, getShoppingCart } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
 import Products from '../Products/Products';
 import './Shop.css'
+import { Link } from 'react-router-dom';
 
 const Shop = () => {
 
@@ -54,10 +55,19 @@ const Shop = () => {
 
     }
 
+    const handleClearCart = () => {
+        setCart([]);
+        deleteShoppingCart();
+    }
+
     return (
         <div className='shop'>
             <Products products={products} handleAddToCart={handleAddToCart}></Products>
-            <Cart cart={cart}></Cart>
+            <Cart handleClearCart={handleClearCart} cart={cart}>
+            <Link to={'/orders'}>
+                <button className='proceed-btn'>Review Orders</button>
+            </Link>
+            </Cart>
         </div>
     );
 };

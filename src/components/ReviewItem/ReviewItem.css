@@ -27,4 +27,5 @@
     height: 4em;
     border-radius: 50%;
     background-color: rgb(210, 137, 137);
+    cursor: pointer;
 }

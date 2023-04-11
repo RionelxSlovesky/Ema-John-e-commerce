@@ -8,6 +8,29 @@
     top: 0;
 }
 
+.clear-cart-btn {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    border: transparent;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.proceed-btn {
+    width: 100%;
+    padding: 1em;
+    text-align: start;
+    background-color: rgb(210, 137, 137);
+    border: transparent;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
 .summary-header, .summary-desc {
     margin-bottom: 1em;
 }
